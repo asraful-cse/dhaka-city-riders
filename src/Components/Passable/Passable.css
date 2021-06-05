@@ -1,0 +1,13 @@
+.passableImg {
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+
+.text-center {
+    color: rgb(37 175 193 / 89%);
+    text-shadow: rgb(0 0 0) 1px -1px 1px;
+}

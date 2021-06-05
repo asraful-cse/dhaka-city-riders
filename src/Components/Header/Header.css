@@ -1,0 +1,17 @@
+.navbar .navbar-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: rgba(23, 151, 81, 0.76);
+    
+}
+
+.nav-item{
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.navbar{
+    background-color: lime;
+}
