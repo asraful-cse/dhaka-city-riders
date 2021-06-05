@@ -11,6 +11,7 @@ import Login from './Components/Login/Login';
 import Header from './Components/Header/Header';
 import { createContext, useState } from 'react';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import NoMatch from './Components/NoMatch/NoMatch';
 
 
 export const UserContext = createContext();
@@ -44,6 +45,10 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+
+          <Route path="*">
+          <NoMatch />
+        </Route>
 
         </Switch>
       </Router>
